@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Arena Tracking</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>This is the arena tracker.</h1>
+    <h1>Pick your arena class!</h1>
+    <div class='classButton'>Paladin</div>
+    <div class='classButton'>Rogue</div>
+    <div class='classButton'>Mage</div>
+    <div class='classButton'>Warlock</div>
+    <div class='classButton'>Shaman</div>
+    <div class='classButton'>Warrior</div>
+    <div class='classButton'>Hunter</div>
+    <div class='classButton'>Priest</div>
+    <div class='classButton'>Druid</div>
+
+    <h3 id='classTitle'></h3>
+    <div id='recordTitle'>WINS - LOSSES</div>
+
+    <div id='record'></div>
+
+    <button id="wonButton">+1 Win</button>
+    <button id="lossButton">+1 Loss =(</button>
+
+    <script src="/arena.js" async></script>
 </body>
 </html>
